@@ -1,4 +1,4 @@
-module github.com/Vyom-Yadav/Fake-Product-Detection-Hyperledger/asset-transfer/product-chaincode
+module github.com/rohit25sep/Fake-Product-Detection-Hyperledger/asset-transfer/product-chaincode
 
 go 1.18
 

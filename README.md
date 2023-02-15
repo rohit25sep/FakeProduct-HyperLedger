@@ -45,7 +45,7 @@ This is a simple REST server written in golang with endpoints for chaincode invo
 ### Note ⚠️
 
 1. The API server, by default uses credentials of `Manufacturer` user. To change this modify path
-   in [main.go](https://github.com/Vyom-Yadav/Fake-Product-Detection-Hyperledger/blob/master/asset-transfer/rest-api-go/main.go)
+   in [main.go](https://github.com/rohit25sep/Fake-Product-Detection-Hyperledger/blob/master/asset-transfer/rest-api-go/main.go)
 2. There is only a single channel and a single chaincode deployed on that channel, so those values are hardcoded.
 3. While invoking `TransferAssetTo...` function, make sure correct user is being used as ABAC is enabled. Also make sure
    arguments supplied for name and address actually belong to a registered user.
@@ -62,7 +62,7 @@ Run using the command: `GOLANG_PROTOBUF_REGISTRATION_CONFLICT=warn go run main.g
 ### Usage
 
 - Setup fabric test network and deploy the asset transfer chaincode
-  by [following these instructions](https://github.com/Vyom-Yadav/Fake-Product-Detection-Hyperledger/blob/master/README.md).
+  by [following these instructions](https://github.com/rohit25sep/Fake-Product-Detection-Hyperledger/blob/master/README.md).
 
 - cd into `./asset-transfer/rest-api-go` directory
 - Download required dependencies using `go mod download`
@@ -132,7 +132,7 @@ The network structure is quite simple, it includes
 - One Channel
 - One Chaincode
 
-The fabric network can be configured for HA but that is not the focus of this project. You can refer to https://github.com/Vyom-Yadav/Fake-Product-Detection-Blockchain for seeing HA setup (just for HA setup).
+The fabric network can be configured for HA but that is not the focus of this project. You can refer to https://github.com/rohit25sep/Fake-Product-Detection-Blockchain for seeing HA setup (just for HA setup).
 
 ## Contributing to this project
 

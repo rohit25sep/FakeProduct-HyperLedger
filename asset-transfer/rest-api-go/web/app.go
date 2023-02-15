@@ -3,7 +3,7 @@ package web
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/Vyom-Yadav/Fake-Product-Detection-Hyperledger/asset-transfer/product-chaincode/chaincode"
+	"github.com/rohit25sep/Fake-Product-Detection-Hyperledger/asset-transfer/product-chaincode/chaincode"
 	"github.com/skip2/go-qrcode"
 	"net/http"
 	"os"

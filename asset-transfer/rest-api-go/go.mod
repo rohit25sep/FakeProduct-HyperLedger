@@ -3,7 +3,7 @@ module rest-api-go
 go 1.19
 
 require (
-	github.com/Vyom-Yadav/Fake-Product-Detection-Hyperledger/asset-transfer/product-chaincode v0.0.0-20230122184854-f7490a324d23
+	github.com/rohit25sep/Fake-Product-Detection-Hyperledger/asset-transfer/product-chaincode v0.0.0-20230122184854-f7490a324d23
 	github.com/hyperledger/fabric-gateway v1.1.0
 	github.com/skip2/go-qrcode v0.0.0-20200617195104-da1b6568686e
 	google.golang.org/grpc v1.49.0
